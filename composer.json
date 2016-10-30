@@ -1,0 +1,25 @@
+{
+    "name": "gabrieljaime/table_history_log",
+    "license": "MIT",
+    "description": "Keep a history for your models",
+    "keywords": ["model", "laravel", "log", "revision", "history"],
+    "homepage": "http://github.com/gabrieljaime/table_history_log",
+    "authors": [
+        {
+            "name": "Gabriel Jaime",
+            "email": "acagabo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "~4.0|~5.0|~5.1"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Gabo\\table_history_log": "src/Gabo"
+        }
+    }
+}
