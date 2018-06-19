@@ -36,6 +36,8 @@ trait HistoryLog
      * @var array
      */
     protected $dirtyData = array();
+    
+    protected $revisionEnabled= false;
 
 
 
